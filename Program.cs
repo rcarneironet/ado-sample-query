@@ -23,17 +23,17 @@ namespace SampleQuery
             }),
                 Task.Run(async () =>
                 {
-                    await Execute_Command_1(conn);
+                    await Execute_Command_2(conn);
                 }),
 
                 Task.Run(async () =>
                 {
-                    await Execute_Command_1(conn);
+                    await Execute_Command_3(conn);
                 }),
 
                 Task.Run(async () =>
                 {
-                    await Execute_Command_1(conn);
+                    await Execute_Command_4(conn);
                 })
             };
 
